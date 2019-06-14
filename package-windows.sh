@@ -26,3 +26,5 @@ java -jar packr.jar \
 rm OpenJDK*.zip
 rm packr.jar
 rm -r phobox/
+
+## Result: Packaging done, but the main class does not work
