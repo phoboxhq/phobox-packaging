@@ -27,4 +27,4 @@ rm OpenJDK*.zip
 rm packr.jar
 rm -r phobox/
 
-## Result: Packaging done, but the main class does not work
+## Result: Packaging done, but the packr doesn't work with spring boot's jarlauncher
