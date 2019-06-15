@@ -10,3 +10,13 @@
  6. Enjoy the installer in dist/bundle/phobox.exe
 
 Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
+
+# Debian/Ubuntu-Build
+ 1. Install fakeroot
+    * sudo apt-get install fakeroot
+ 2. Get the latest phobox.jar build
+    * https://github.com/phoboxhq/phobox/releases
+ 4. Download and install the latest OpenJDK in Verison 8 or 11 (LTS)
+    * f.e. here https://adoptopenjdk.net
+ 5. Put all in one directory and run linux-build.sh
+ 6. Enjoy the installer in dist/bundle/phobox.deb
