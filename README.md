@@ -20,4 +20,8 @@
 # MacOS-Build
 _TODO_
 
-Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
+# Resources
+ * Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
+ * https://medium.com/@adam_carroll/java-packager-with-jdk11-31b3d620f4a8
+ * https://bugs.openjdk.java.net/browse/JDK-8200758
+ * https://stackoverflow.com/a/54081212/3912144
