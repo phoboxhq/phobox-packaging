@@ -9,8 +9,6 @@
  5. Put all in one directory and run windows-build.bat
  6. Enjoy the installer in dist/bundle/phobox.exe
 
-Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
-
 # Debian/Ubuntu-Build
  1. Install fakeroot
     * sudo apt-get install fakeroot
@@ -20,3 +18,8 @@ Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
     * f.e. here https://adoptopenjdk.net
  5. Put all in one directory and run linux-build.sh
  6. Enjoy the installer in dist/bundle/phobox.deb
+
+# MacOS-Build
+_TODO_
+
+Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
