@@ -13,6 +13,11 @@ unzip jdk.packager-linux.zip
 # Install fakeroot is't necessary for jpackager
 sudo apt-get install fakeroot
 
+# Get Gluon JavaFX modules (TODO)
+#wget https://gluonhq.com/download/javafx-11-0-2-jmods-linux/
+# extract
+# mv extract to JAVA_HOME/jmods
+
 # Get the latest phobox build (TODO)
 mkdir input/
 wget -p input/ https://github.com/phoboxhq/phobox/releases...
