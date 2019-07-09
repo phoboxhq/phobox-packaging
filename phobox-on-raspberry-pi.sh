@@ -20,4 +20,8 @@ if [ ! -f phobox.jar ]; then
 	wget https://github.com/phoboxhq/phobox/releases/download/v$version/phobox-server-$version.jar -O phobox.jar
 fi
 
-java -Djavafx.platform=gtk2 -jar phobox.jar
+if [ ${#X} -gt 0 ]; then
+	java -Djavafx.platform=gtk2 -jar phobox.jar "$@"
+else
+	java -jar phobox.jar -nw "$@"
+fi
