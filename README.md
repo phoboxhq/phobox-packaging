@@ -20,6 +20,12 @@
 # MacOS-Build
 _TODO_
 
+# Docker
+ 1. Install docker. [Follow this instructions for your OS](https://docs.docker.com/install/)
+ 2. `git clone https://github.com/phoboxhq/phobox-packaging.git`
+ 3. `cd phobox-package/docker`
+ 4. `./make-image.sh`
+
 # Resources
  * Thanks to @jonashackt for https://github.com/jonashackt/springboot2exe
  * https://medium.com/@adam_carroll/java-packager-with-jdk11-31b3d620f4a8
